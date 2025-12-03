@@ -134,7 +134,11 @@
 #     def __init__(self, nomi, rusumi, chipta_narxi):
 #         super().__init__(nomi, rusumi)
 #         self.chipta=chipta_narxi
+#     def sss(self,yolvaqti):
+#         self.vaqt=yolvaqti
+#         return f'{super().__str__()},  yol vaqti {self.vaqt}'
 #     def __str__(self):
 #         return f'{super().__str__()} chipta narxi: {self.chipta} $'
 # sam=Samalyot("samalyot",'birnarsa',177)
 # print(sam)
+# print(sam.sss(11))
